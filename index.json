@@ -1,0 +1,213 @@
+{
+  "zone": {
+    "sainctelette": {
+      "id": "sainctelette",
+      "name": "Sainctelette",
+      "tags": [
+        "sainct",
+        "sinct"
+      ],
+      "users": {
+        "emx": "Domitille",
+        "percements": "--",
+        "ltsimo": "--",
+        "ltyser": "--",
+        "structure lampe": "--",
+        "défence incendie": "--",
+        "fixation plafond": "--",
+        "traversées": "--",
+        "défense incendie": "--"
+      }
+    },
+    "paruck": {
+      "id": "paruck",
+      "name": "Paruck",
+      "tags": [
+        "paru"
+      ],
+      "users": {
+        "emx": "--",
+        "percements": "Margaux Vanmol",
+        "traversées": "Margaux Vanmol",
+        "structure lampe": "--",
+        "fixation plafond": "--",
+        "défense incendie": "--"
+      }
+    },
+    "jubile": {
+      "id": "jubile",
+      "name": "Jubile",
+      "tags": [
+        "jubi",
+        "jb"
+      ],
+      "users": {
+        "emx": "Margaux Vanmol",
+        "percements": "--",
+        "traversées": "--",
+        "structure lampe": "--",
+        "fixation plafond": "--",
+        "défense incendie": "--"
+      }
+    },
+    "leopold": {
+      "id": "leopold",
+      "name": "Boulevard Léopold",
+      "tags": [
+        "bvd",
+        "léo",
+        "leo",
+        "boulevar",
+        "blv",
+        "bld"
+      ],
+      "users": {
+        "emx": "--",
+        "percements": "--",
+        "traversées": "--",
+        "conduites": "--",
+        "structure lampe": "--",
+        "fixation plafond": "--",
+        "défense incendie": "--"
+      }
+    },
+    "simonis": {
+      "id": "simonis",
+      "name": "Simonis",
+      "tags": [
+        "simo"
+      ],
+      "users": {
+        "emx": "Christian Marini",
+        "percements": "Christian Marini",
+        "traversées": "--",
+        "conduites": "--",
+        "fixation plafond": "--",
+        "défense incendie": "--",
+        "structure lampe": "--"
+      }
+    },
+    "elisabeth": {
+      "id": "elisabeth",
+      "name": "Parc Elisabeth",
+      "tags": [
+        "parc",
+        "elis",
+        "eliz",
+        "élis",
+        "éliz",
+        "pael"
+      ],
+      "users": {
+        "emx": "--",
+        "percements": "--",
+        "traversées": "--",
+        "conduites": "--",
+        "structure lampe": "--",
+        "fixation plafond": "--",
+        "défense incendie": "--"
+      }
+    },
+    "basilique": {
+      "id": "basilique",
+      "name": "Basilique",
+      "tags": [
+        "basi"
+      ],
+      "users": {
+        "emx": "Christian Marini",
+        "percements": "--",
+        "traversées": "--",
+        "conduites": "--",
+        "défense incendie": "--",
+        "structure lampe": "--",
+        "fixation plafond": "--"
+      }
+    }
+  },
+  "sub_zone": {
+    "percements": {
+      "id": "percements",
+      "name": "Percements ",
+      "tags": [
+        "perc",
+        "prc"
+      ]
+    },
+    "traversées": {
+      "id": "traversées",
+      "name": "Traversées de voirie ",
+      "tags": [
+        "trav",
+        "voiri"
+      ]
+    },
+    "structure lampe": {
+      "id": "structure lampe",
+      "name": "Structure Lampe ",
+      "tags": [
+        "stru",
+        "lamp"
+      ]
+    },
+    "fixation plafond": {
+      "id": "fixation plafond",
+      "name": "Fixation plafond ",
+      "tags": [
+        "fix",
+        "plaf"
+      ]
+    },
+    "défense incendie": {
+      "id": "défense incendie",
+      "name": "Défense incendie ",
+      "tags": [
+        "déf",
+        "defen",
+        "incend"
+      ]
+    },
+    "conduites": {
+      "id": "conduites",
+      "name": "Conduites Arcadis ",
+      "tags": [
+        "conduit",
+        "arca",
+        "canalis"
+      ]
+    }
+  },
+  "associated_zone": {
+    "lt": {
+      "tags": [
+        "lt",
+        "local",
+        "techn"
+      ],
+      "zones": {
+        "ltyser": {
+          "id": "ltyser",
+          "name": "Le local technique Yser ",
+          "zone_id": "sainctelette",
+          "specific": [
+            "ys"
+          ]
+        }
+      }
+    },
+    "is": {
+      "tags": [
+        "is",
+        "secou"
+      ],
+      "zones": {
+        "is7": {
+          "id": "is7",
+          "specific": [
+            "7"
+          ]
+        }
+      }
+    }
+  }
+}
